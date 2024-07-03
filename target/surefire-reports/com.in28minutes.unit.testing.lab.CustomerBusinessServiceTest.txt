@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.in28minutes.unit.testing.lab.CustomerBusinessServiceTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.501 s <<< FAILURE! - in com.in28minutes.unit.testing.lab.CustomerBusinessServiceTest
+testCustomerProductsSum_currencyNull  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.IllegalArgumentException: No enum constant com.in28minutes.unit.testing.lab.others.Currency.DUMMY_ID
+	at com.in28minutes.unit.testing.lab.CustomerBusinessServiceTest.testCustomerProductsSum_currencyNull(CustomerBusinessServiceTest.java:104)
+
